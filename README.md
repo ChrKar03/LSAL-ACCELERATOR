@@ -93,7 +93,7 @@ Synthesis and place-and-route are performed with Vitis HLS targeting the board's
 | Component | Dependency |
 |-----------|-----------|
 | x86 parallel | GCC + OpenMP (`-fopenmp`) |
-| ARM parallel | GCC + OpenMP or native pthreads |
+| ARM parallel | GCC |
 | FPGA kernel  | Xilinx Vitis HLS, `ap_int.h` |
 | FPGA host    | OpenCL (`CL/opencl.h`, `CL/cl_ext.h`), Xilinx runtime (XRT) |
 
